@@ -27,4 +27,9 @@ void swap_element(int *a, int *b);
 int partition_sort(int *array, int low, int high, size_t size);
 void recursive_sort(int *array, int low, int high, size_t size);
 void quick_sort(int *array, size_t size);
+void merge_sort(int *array, size_t size);
+void copyArray(int *array, int iBegin, int iEnd, int *arrayCopyy);
+void topDownSplitMerge(int *arrayCopyy, int iBegin, int iEnd, int *array);
+void topDownMerge(int *arrayCopyy, int iBegin, int iMiddle, int iEnd, int *array);
+void printArray(int *array, int iBegin, int iMiddle);
 #endif
